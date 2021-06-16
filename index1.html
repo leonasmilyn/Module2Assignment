@@ -9,12 +9,14 @@
         * {
             box-sizing: border-box;
         }
+
         h1 {
             margin: 20px;
             text-align: center;
             font-family: cursive;
             font-size: 175%;
         }
+
         .menu {
             background-color: grey;
             color: black;
@@ -23,92 +25,120 @@
             /* padding: 20px; */
             font-family: cursive;
             font-size: 125%;
+            float: left;
+            width: 30%;
+            position: relative;
+            
+
         }
+
         #chicken {
             background-color: beige;
             color: black;
             border: 3px solid black;
-            margin: 0 0 0 400px;
-            padding: 20px;
+            /* margin: 0 0 0 400px; */
+            /* padding: 20px; */
+            margin: auto;
             text-align: center;
             font-family: cursive;
             font-size: 125%;
+            overflow: hidden;
+            float: right;
+
         }
+
         #beef {
             background-color: maroon;
             color: white;
             border: 3px solid black;
-            margin: 0 0 0 400px;            
-            padding: 20px;
+            /* margin: 0 0 0 400px;*/
+            /* padding: 20px; */
+            margin: auto;
             text-align: center;
             font-family: cursive;
             font-size: 125%;
+            overflow: hidden;
+            float: right;
+
         }
+
         #sushi {
             background-color: wheat;
             color: black;
             border: 3px solid black;
-            margin: 0 0 0 400px; 
-            padding: 20px;
+            /* margin: 0 0 0 400px;  */
+            /* padding: 20px; */
+            margin: auto;
             text-align: center;
             font-family: cursive;
             font-size: 125%;
+            overflow: hidden;
+            float: right;
+
         }
+
         .row {
             width: 100%;
         }
-        @media (min-width: 992px) and (max-width: 1199px) {
+
+        @media (min-width: 992px) {
             .col-lg-4 {
-                float: left;
-                width: 33.33%;
+                width: 30%;
+                
             }
         }
+
         @media (min-width: 768px) and (max-width: 991px) {
-            .col-md-6, .col-sm-12 {
+            /* .col-md-6, .col-sm-12 {
                 float: left;
-            }
+            } */
             .col-md-6 {
-                width: 50%;
+                width: 42%;
+                                
             }
             .col-md-12 {
-                width: 100%;
+                width: 95%;
+                                
             }
-            
         }
+
         @media (max-width: 767px) {
             .col-sm-12 {
-                float: left;
-                width: 100%;
+                width: 95%;
+                
             }
-            
         }
+
     </style>
 </head>
+
 <body>
     <h1>Our Menu</h1>
+
     <div class="row">
         <div class="menu col-lg-4 col-md-6 col-sm-12">
             <p id="chicken">Chicken</p>
-            lorem ipsum dolor sit amet, consecteturadipisicing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            lorem ipsum dolor sit amet, consecteturadipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquipex ea commodo consequat.
         </div>
         <div class="menu col-lg-4 col-md-6 col-sm-12">
             <p id="beef">Beef</p>
-            lorem ipsum dolor sit amet, consecteturadipisicing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            lorem ipsum dolor sit amet, consecteturadipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquipex ea commodo consequat.
         </div>
-        <div class="menu col-lg-4 col-md-6 col-sm-12">
+        <div class="menu col-lg-4 col-md-12 col-sm-12">
             <p id="sushi">Sushi</p>
-            lorem ipsum dolor sit amet, consecteturadipisicing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            lorem ipsum dolor sit amet, consecteturadipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquipex ea commodo consequat.
         </div>
     </div>
 
 </body>
+
 </html>
