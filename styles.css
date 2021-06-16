@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 175%;
+}
+
+.menu {
+    background-color: grey;
+    color: black;
+    border: 3px solid black;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 125%;
+    float: left;
+    width: 30%;
+    position: relative;
+    height: auto;
+    
+}
+
+#chicken {
+    background-color: beige;
+    color: black;
+    border: 3px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 125%;
+    overflow: hidden;
+    float: right;
+    width: 30%;
+    height: auto;
+
+}
+
+#beef {
+    background-color: maroon;
+    color: white;
+    border: 3px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 125%;
+    overflow: hidden;
+    float: right;
+    width: 30%;
+
+}
+
+#sushi {
+    background-color: wheat;
+    color: black;
+    border: 3px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 125%;
+    overflow: hidden;
+    float: right;
+    width: 30%;
+
+}
+
+.row {
+    width: 95%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 32%;
+        float: left;
+        margin: 5px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .col-md-6 {
+        width: 48%;
+        float: left;
+        margin: 5px;
+                        
+    }
+    .col-md-12 {
+        width: 97%;
+        float: left;
+        margin: 5px;
+                        
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 98%;
+                
+    }
+}
